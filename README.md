@@ -9,4 +9,5 @@ drive.mount('/content/drive')
 !pipreqs "/content/drive/MyDrive/Colab Notebooks/Demo" --scan-notebooks
 
 ## Run Streamlit App
+dashboard/dashboard.py
 streamlit run dashboard.py
