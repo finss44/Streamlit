@@ -1,12 +1,13 @@
 # Dashboard E-commerce Public Dataset Analysis
 
-## Pipreqs pada Proyek Google Colab
-!pip install pipreqs
+## Setup Environment
+pipenv install
 
-from google.colab import drive
-drive.mount('/content/drive')
+pipenv shell
 
-!pipreqs "/content/drive/MyDrive/Colab Notebooks/Demo" --scan-notebooks
+pip install numpy pandas scipy matplotlib seaborn jupyter
+
+jupyter-notebook .
 
 ## Run Streamlit App
 dashboard/dashboard.py
